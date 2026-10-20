@@ -10,24 +10,27 @@ h1 {
   border: 2px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration-line: overline underline;
-  text-decoration-style: wavy;
+}
+
+h2 {
+  margin-left: 200px;
 }
 
 p {
     font-family: Georgia, serif;
     font-size: 20px;
-    text-align: center;
-    margin-left: 85px;
-    margin-right: 85px;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+hr {
+  border: none;
+  border-top: 3px black solid;
+  width: 80%;
 }
 
 img {
 
-    margin-left: 100px;
-}
-
-.p {
-  border: 10px solid transparent; /* Required for border-image */
-  padding: 15px;
-  border-image: url(border.png) 30 round;
+    margin-left: 125px;
 }
